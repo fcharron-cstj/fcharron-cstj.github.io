@@ -7,11 +7,13 @@ createApp({
       mouseX: '10px',
       mouseY: '10px',
       scrollY: window.scrollY,
-      about : false,
+      about: false,
       projects: {
         p1: null,
         p2: null,
         p3: null,
+        p4: null,
+        p5: null,
       },
     };
   },
@@ -60,6 +62,7 @@ createApp({
     this.projects.p2 = this.$refs.p2;
     this.projects.p3 = this.$refs.p3;
     this.projects.p4 = this.$refs.p4;
+    this.projects.p5 = this.$refs.p5;
 
   },
   created() {
